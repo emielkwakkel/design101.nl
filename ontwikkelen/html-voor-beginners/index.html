@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="nl-NL" prefix="og: http://ogp.me/ns#"><head><meta charset="UTF-8"><title>
+	HTML Voor Beginners - Deel 1 - De BasisDesign 101	</title><link rel="profile" href="http://gmpg.org/xfn/11"><link rel="stylesheet" type="text/css" media="all" href="http://www.design101.nl/wp-content/themes/d101/style.css"><link rel="pingback" href="http://www.design101.nl/xmlrpc.php"><!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]--><meta name="viewport" content="width=device-width, initial-scale=1"><script src="http://www.design101.nl/wp-content/themes/d101/js/modernizr-1.6.min.js"></script><!-- Push notifications for this website enabled by Roost. Support for Safari, Firefox, and Chrome Browser Push. (v 2.2.0) - http://goroost.com/ --><!-- This site is optimized with the Yoast WordPress SEO plugin v1.7.4 - https://yoast.com/wordpress/plugins/seo/ --><meta name="description" content="Volg onze gratis serie HTML voor Beginners. Deel 1 start met de basis. Wat is HTML en hoe ziet een eenvoudige HTML pagina er uit?"><link rel="canonical" href="http://www.design101.nl/ontwikkelen/html-voor-beginners/"><meta property="og:locale" content="nl_NL"><meta property="og:type" content="article"><meta property="og:title" content="HTML Voor Beginners - Deel 1 - De Basis"><meta property="og:description" content="Volg onze gratis serie HTML voor Beginners. Deel 1 start met de basis. Wat is HTML en hoe ziet een eenvoudige HTML pagina er uit?"><meta property="og:url" content="http://www.design101.nl/ontwikkelen/html-voor-beginners/"><meta property="og:site_name" content="Design 101"><meta property="article:section" content="HTML"><meta property="article:published_time" content="2014-09-13T09:21:55+00:00"><meta property="article:modified_time" content="2014-09-13T15:34:27+00:00"><meta property="og:updated_time" content="2014-09-13T15:34:27+00:00"><!-- / Yoast WordPress SEO plugin. --><link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.design101.nl/xmlrpc.php?rsd"><link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.design101.nl/wp-includes/wlwmanifest.xml"><script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-26403978-1']);
+_gaq.push(['_trackPageview']);
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script><style type="text/css" id="syntaxhighlighteranchor"></style><link rel="apple-touch-icon" href="http://www.design101.nl/wp-content/themes/d101/images/touch-icon-iphone.png"><link rel="apple-touch-icon" sizes="76x76" href="http://www.design101.nl/wp-content/themes/d101/images/touch-icon-ipad.png"><link rel="apple-touch-icon" sizes="120x120" href="http://www.design101.nl/wp-content/themes/d101/images/touch-icon-iphone-retina.png"><link rel="apple-touch-icon" sizes="152x152" href="http://www.design101.nl/wp-content/themes/d101/images/touch-icon-ipad-retina.png"></head><body class="single single-post postid-447 single-format-standard">
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) {return;}
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=124466607601573";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script><header><hgroup><!--<h1><a href="http://www.design101.nl/">Design <span>101</span></a></h1>--><h1><a href="http://www.design101.nl/" title="Design 101" rel="home">Design 101</a></h1>
+            <h2>Nederlandstalig geschreven uitleg en tutorials over Photoshop en (web) design</h2>
+        </hgroup><form role="search" method="get" id="searchform" class="searchform" action="http://www.design101.nl/">
+				<div>
+					<label class="screen-reader-text" for="s">Zoeken naar:</label>
+					<input type="text" value="" name="s" id="s"><input type="submit" id="searchsubmit" value="Zoeken"></div>
+			</form> 
+                <nav><ul><li><a href="http://www.design101.nl">Home</a></li><li class="page_item page-item-180"><a href="http://www.design101.nl/faq-stel-je-vraag/">Veelgestelde vragen</a></li>
+</ul></nav></header><div id="fb-root"></div>
+					<script type="text/javascript">
+						window.fbAsyncInit = function()
+						{
+							FB.init({appId: null, status: true, cookie: true, xfbml: true});
+						};
+						(function()
+						{
+							var e = document.createElement('script'); e.async = true;
+							e.src = document.location.protocol + '//connect.facebook.net/nl_NL/all.js';
+							document.getElementById('fb-root').appendChild(e);
+						}());
+					</script><article id="post-447" class="post-447 post type-post status-publish format-standard hentry category-html category-ontwikkelen"><p id="breadcrumbs">
+		<span prefix="v: http://rdf.data-vocabulary.org/#">
+			<span typeof="v:Breadcrumb"><a href="http://www.design101.nl" rel="v:url" property="v:title">Home</a></span> &raquo; <span typeof="v:Breadcrumb"><a href="http://www.design101.nl/category/ontwikkelen/" rel="v:url" property="v:title">Ontwikkelen</a></span> &raquo; <span typeof="v:Breadcrumb"><a href="http://www.design101.nl/category/ontwikkelen/html/" rel="v:url" property="v:title">HTML</a></span> &raquo; <span typeof="v:Breadcrumb"><span class="breadcrumb_last" property="v:title">HTML voor beginners</span></span>
+		</span></p>			<header><h1>HTML voor beginners</h1>
+
+				<time datetime="2014-09-13" pubdate>13 september 2014</time></header><p>In dit artikel leer je vanuit de basis met HTML te werken. Dit komt van pas als je hebt besloten je eigen website te maken, of je een bestaande website onderhoudt. </p>
+<p><span id="more-447"></span></p>
+<h2>HTML voor beginners</h2>
+<p>Allereerst een introductie. Wat is HTML en waar wordt het voor gebruikt? HTML staat voor <strong>HyperText Markup Language</strong> en het wordt gebruikt als opmaaktaal voor websites. Het basis principe van HTML is dat deze door middel van hyperlinks (koppelingen cq. links) kan verwijzen naar andere documenten en bestanden. HTML pagina&rsquo;s kunnen verschillende elementen bevatten, zoals tabellen, lijsten, kopjes en paragraven. Deze elementen worden aangegeven door markeringstekens, ook wel tags genoemd.</p>
+<h2>HTML: De basis voor beginners</h2>
+<p>Open op je computer een tekstbewerker, zoals Notepad. Maak een bestand aan genaamd index.html. De index.html is het bestand dat door een browser als eerste wordt geopend als je een map opent. Plaats in index.html het volgende:</p>
+<pre class="brush: xml; title: ; notranslate" title="">
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+  &lt;head&gt;
+    &lt;title&gt;Pagina titel&lt;/title&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    Hallo wereld!
+  &lt;/body&gt;
+&lt;/html&gt;
+</pre>
+<p>Sla het document op en open de index.html in je browser. Je krijgt een witte pagina te zien met de tekst &ldquo;Hallo wereld!&rdquo; en titel &ldquo;Pagina titel&rdquo;. Wat doet de rest van de HTML? </p>
+<h3>Doctype</h3>
+<p><span class="tag">&lt;!DOCTYPE html&gt;</span> geeft aan de browser aan welk type HTML de pagina gebruikt. In dit geval gebruiken we de laatste versie (HTML5). Het is belangrijk de Doctype te declareren, zonder deze tag weet de browser niet welke versie je gebruikt en dat kan vreemde fouten opleveren. De Doctype staat altijd bovenin de pagina.</p>
+<h3>HTML</h3>
+<p><span class="tag">&lt;html&gt;</span> is de openingstag dat aan de browser aangeeft dat alles hierna HTML is. Aan het einde van het document staat de sluitingstag <span class="tag">&lt;/html&gt;</span>.</p>
+<h3>Head en body</h3>
+<p>Een pagina is altijd opgebouwd uit twee onderdelen. De head (<span class="tag">&lt;head&gt;</span>&hellip;<span class="tag">&lt;/head&gt;</span>) en de body (<span class="tag">&lt;body&gt;</span>&hellip;<span class="tag">&lt;/body&gt;</span>). In de head staat informatie over de pagina, die niet getoond wordt in het browser scherm. De body bevat alle inhoud van de pagina. De twee onderdelen worden onder elkaar tussen de <span class="tag">&lt;html&gt;</span> en <span class="tag">&lt;/html&gt;</span> tags gezet.</p>
+<p>In de title die in de head staat kan de pagina titel worden ingevuld.</p>
+<h3>Sluitingstags</h3>
+<p>De tags die we tot dusver hebben gezien worden als volgt opgebouwd: <span class="tag">&lt;tag&gt;</span>&hellip;informatie&hellip;<span class="tag">&lt;/tag&gt;</span> Maar niet elke tag heeft ook weer een sluitingstag nodig. Neem bijvoorbeeld de enter tag <span class="tag">&lt;br&gt;</span>. Deze bevat geen informatie en hoeft dus niet los afgesloten te worden.</p>
+<h3>Attributen</h3>
+<p>Een attribuut is een extra waarde die aan een tag toegevoegd kan worden. Deze wordt als volgt opgebouwd: <span class="tag">&lt;tag attribuut=&rdquo;waarde&rdquo;&gt;</span>. We nemen als voorbeeld een link. De tag voor een link is <span class="tag">&lt;a&gt;</span>&hellip;link tekst&hellip;<span class="tag">&lt;/a&gt;</span>. Nu weet de browser dat &ldquo;Klik hier&rdquo; een link is, maar nog niet waar de link naartoe moet. Daarom voeg je aan een link het attribuut &ldquo;href&rdquo; toe. Een link schrijf je dus als volgt op in HTML: <span class="tag">&lt;a href=&rdquo;http://design101.nl/&gt;</span>Design101<span class="tag">&lt;/a&gt;</span>.</p>
+<h2>HTML voor beginners vervolg</h2>
+<p>Blijf het weblog volgen, binnenkort volgt het vervolg op deze eerste introductie HTML voor beginners.</p>
+<p><a href="http://facebook.com/design101.nl?ref=hl">Like ons via Facebook</a> en krijg direct bericht wanneer het vervolg geplaatst wordt.</p>
+<div class="wpfblike" style="height: 10px;"><like href="http://www.design101.nl/ontwikkelen/html-voor-beginners/" layout="button_count" show_faces="false" width="252" action="like" colorscheme="light" send="false"></like></div>					
+					
+			<div id="bio">				<img alt="" src="http://0.gravatar.com/avatar/25dbcc3ccbf9271c79c6963130b22e6b?s=60&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G" class="avatar avatar-60 photo" height="60" width="60"><h2>De auteur: Emiel Kwakkel</h2>
+				<p>Emiel Kwakkel is afgestudeerd op het gebied van communicatie en digitale vormgeving en als web designer werkzaam bij een fitness franchise organisatie. Ben je ge&iuml;nteresseerd in web design en user interface design / testing volg dan naast deze blog ook zijn <a href="https://twitter.com/#!/eKwakkel">Twitter</a>.					<a href="http://www.design101.nl/author/emiel-kwakkel/">
+						Bekijk alle berichten van Emiel Kwakkel &rarr;					</a></p>
+						</div>
+			
+			<footer><p>This entry was posted in <a href="http://www.design101.nl/category/ontwikkelen/html/" rel="category tag">HTML</a>, <a href="http://www.design101.nl/category/ontwikkelen/" rel="category tag">Ontwikkelen</a>.</p> 							</footer></article><nav><a href="http://www.design101.nl/ontwikkelen/app-icoon-toevoegen-aan-je-website/" rel="prev">&larr; iOS App icoon toevoegen aan je website</a>					</nav><div id="respond" class="comment-respond">
+				<h3 id="reply-title" class="comment-reply-title">Geef een reactie <small><a rel="nofollow" id="cancel-comment-reply-link" href="http://www.design101.nl/ontwikkelen/html-voor-beginners/#respond" style="display:none;">Reactie annuleren</a></small></h3>
+									<form action="http://www.design101.nl/wp-comments-post.php" method="post" id="commentform" class="comment-form">
+																			<p class="comment-notes"><span id="email-notes">Het e-mailadres wordt niet gepubliceerd.</span> Verplichte velden zijn gemarkeerd met <span class="required">*</span></p>							<p><label for="author">Naam *</label><input id="author" name="author" type="text" value="" size="30" aria-required="true"></p>
+<p><label for="email">E-mail *</label><input id="email" name="email" type="email" value="" size="30" aria-required="true"></p>
+<p><label for="url">Website</label><input id="url" name="url" type="url" value="" size="30"></p>
+												<p class="comment-form-comment"><label for="comment">Reactie</label> <textarea id="comment" name="comment" cols="45" rows="8" aria-describedby="form-allowed-tags" aria-required="true"></textarea></p>						<p class="form-allowed-tags" id="form-allowed-tags">De volgende <abbr title="HyperText Markup Language">HTML</abbr>-tags en -attributen zijn toegestaan:  <code>&lt;a href="" title=""&gt; &lt;abbr title=""&gt; &lt;acronym title=""&gt; &lt;b&gt; &lt;blockquote cite=""&gt; &lt;cite&gt; &lt;code&gt; &lt;del datetime=""&gt; &lt;em&gt; &lt;i&gt; &lt;q cite=""&gt; &lt;strike&gt; &lt;strong&gt; </code></p>						<p class="form-submit">
+							<input name="submit" type="submit" id="submit" class="submit" value="Reactie plaatsen"><input type="hidden" name="comment_post_ID" value="447" id="comment_post_ID"><input type="hidden" name="comment_parent" id="comment_parent" value="0"></p>
+						<p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="34a10f0921"></p><p style="display: none;"><input type="hidden" id="ak_js" name="ak_js" value="89"></p>					</form>
+							</div><!-- #respond -->
+			
+
+
+
+
+
+	<aside><ul></ul></aside><footer><p>Copyright 2016 &copy; <a href="http://www.design101.nl/" title="Design 101" rel="home">
+			Design 101		</a> | Berichten zijn geschreven door <a href="https://twitter.com/#!/eKwakkel">Emiel Kwakkel</a></p>
+<div class="fb-like fb-like-footer" data-href="https://www.facebook.com/pages/Design101/156298971132557" data-send="false" data-width="252" data-show-faces="false" data-font="verdana"></div>
+		
+
+	</footer><script>var _roost = _roost || [];</script><script src="//cdn.goroost.com/roostjs/83cd2d496ba34915b1cb14714d3329d3" async></script><script type="text/javascript" src="http://www.design101.nl/wp-content/plugins/akismet/_inc/form.js?ver=790d3c60134d9385b95c78a03dc419df"></script><script type="text/javascript" src="http://www.design101.nl/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/scripts/shCore.js?ver=790d3c60134d9385b95c78a03dc419df"></script><script type="text/javascript" src="http://www.design101.nl/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/scripts/shBrushXml.js?ver=790d3c60134d9385b95c78a03dc419df"></script><script type="text/javascript">
+	(function(){
+		var corecss = document.createElement('link');
+		var themecss = document.createElement('link');
+		var corecssurl = "http://www.design101.nl/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/styles/shCore.css?ver=3.0.9";
+		if ( corecss.setAttribute ) {
+				corecss.setAttribute( "rel", "stylesheet" );
+				corecss.setAttribute( "type", "text/css" );
+				corecss.setAttribute( "href", corecssurl );
+		} else {
+				corecss.rel = "stylesheet";
+				corecss.href = corecssurl;
+		}
+		document.getElementsByTagName("head")[0].insertBefore( corecss, document.getElementById("syntaxhighlighteranchor") );
+		var themecssurl = "http://www.design101.nl/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/styles/shThemeDefault.css?ver=3.0.9";
+		if ( themecss.setAttribute ) {
+				themecss.setAttribute( "rel", "stylesheet" );
+				themecss.setAttribute( "type", "text/css" );
+				themecss.setAttribute( "href", themecssurl );
+		} else {
+				themecss.rel = "stylesheet";
+				themecss.href = themecssurl;
+		}
+		//document.getElementById("syntaxhighlighteranchor").appendChild(themecss);
+		document.getElementsByTagName("head")[0].insertBefore( themecss, document.getElementById("syntaxhighlighteranchor") );
+	})();
+	SyntaxHighlighter.config.strings.expandSource = '+ expand source';
+	SyntaxHighlighter.config.strings.help = '?';
+	SyntaxHighlighter.config.strings.alert = 'SyntaxHighlighter\n\n';
+	SyntaxHighlighter.config.strings.noBrush = 'Can\'t find brush for: ';
+	SyntaxHighlighter.config.strings.brushNotHtmlScript = 'Brush wasn\'t configured for html-script option: ';
+	SyntaxHighlighter.defaults['pad-line-numbers'] = false;
+	SyntaxHighlighter.defaults['toolbar'] = false;
+	SyntaxHighlighter.all();
+</script><script type="text/javascript" src="http://www.design101.nl/wp-includes/js/comment-reply.min.js?ver=790d3c60134d9385b95c78a03dc419df"></script></body></html>
