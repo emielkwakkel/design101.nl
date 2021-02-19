@@ -2,10 +2,11 @@
 	http://lessframework.com
 	by Joni Korpi
 	License: http://opensource.org/licenses/mit-license.php	*/
-	
+
+
 /* Import Google Font Open Sans */
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,700,600);	
-	
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,700,600);
 .button {
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
@@ -17,14 +18,7 @@
   padding: 6px 12px;
   text-shadow: 0 1px 0 #444f66;
 }
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-body {
+h1, h2, h3, h4, h5, h6, p, body {
   font-family: "Open Sans", Verdana, Arial, sans-serif;
 }
 body {
@@ -65,12 +59,12 @@ p {
   padding: 0 0 21px 0;
 }
 strong {
-	font-weight: bold;
+  font-weight: bold;
 }
 span.tag {
-	color: #069;
-	font-family: Consolas, 'Bitstream Vera Sans Mono', 'Courier New', Courier, monospace;
-	font-weight: bold;
+  color: #069;
+  font-family: Consolas, 'Bitstream Vera Sans Mono', 'Courier New', Courier, monospace;
+  font-weight: bold;
 }
 a {
   color: #667699;
@@ -111,40 +105,38 @@ body {
   height: auto;
   -webkit-text-size-adjust: 100%;
   /* Stops Mobile Safari from auto-adjusting font-sizes */
-
   margin: 0 auto;
-  background: url(http://www.design101.nl/wp-content/themes/d101/images/background.jpg) repeat-x #fafafa;
+  background: url(https://design101.nl/wp-content/themes/d101/images/background.jpg) repeat-x #fafafa;
 }
-body > header {
+body>header {
   width: 100%;
   height: 160px;
   float: left;
   margin-bottom: 36px;
 }
-body > header > hgroup {
+body>header>hgroup {
   text-indent: -9999px;
   margin-top: 0;
   float: left;
 }
-body > header > hgroup h1 a {
-  background: url(http://www.design101.nl/wp-content/themes/d101/images/logo.png) no-repeat;
+body>header>hgroup h1 a {
+  background: url(https://design101.nl/wp-content/themes/d101/images/logo.png) no-repeat;
   float: left;
   width: 272px;
   height: 102px;
   margin-top: 20px;
 }
-body > header > nav {
+body>header>nav {
   display: none;
 }
-body > header .fb-like {
+body>header .fb-like {
   float: right;
   margin-top: 20px;
 }
-body > header > form {
+body>header>form {
   /* Search form */
-
 }
-body > header > form div {
+body>header>form div {
   width: 258px;
   float: right;
   clear: right;
@@ -156,10 +148,10 @@ body > header > form div {
   border-radius: 5px;
   background: #fff;
 }
-body > header > form div label {
+body>header>form div label {
   display: none;
 }
-body > header > form div input[type=text] {
+body>header>form div input[type=text] {
   width: 159px;
   height: 24px;
   padding: 5px 5px 5px 10px;
@@ -171,10 +163,10 @@ body > header > form div input[type=text] {
   border: 0;
   -webkit-appearance: none;
 }
-body > header > form div input[type=text]:focus {
+body>header>form div input[type=text]:focus {
   background: #f4f4f4;
 }
-body > header > form div input[type=submit] {
+body>header>form div input[type=submit] {
   width: 76px;
   height: 30px;
   background: #f56e6e;
@@ -189,19 +181,19 @@ body > header > form div input[type=submit] {
   color: #fff;
   font-size: 14px;
 }
-body > footer {
+body>footer {
   width: 100%;
   float: left;
 }
-body > footer p {
+body>footer p {
   color: #ccc;
   text-align: center;
 }
-body > footer p a {
+body>footer p a {
   color: #ccc;
   text-shadow: 0 1px 0 #fff;
 }
-body > nav {
+body>nav {
   width: 100%;
   float: left;
   margin-bottom: 10px;
@@ -211,7 +203,7 @@ body > nav {
   -khtml-border-radius: 5px;
   border-radius: 5px;
 }
-body > nav a {
+body>nav a {
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   -khtml-border-radius: 3px;
@@ -222,10 +214,10 @@ body > nav a {
   padding: 6px 12px;
   text-shadow: 0 1px 0 #444f66;
 }
-body > nav a[rel=prev] {
+body>nav a[rel=prev] {
   float: left;
 }
-body > nav a[rel=next] {
+body>nav a[rel=next] {
   float: right;
 }
 article {
@@ -364,7 +356,6 @@ article footer p a:hover {
   float: left !important;
   padding: 10px;
 }
-
 aside {
   width: 252px;
   float: right;
@@ -375,7 +366,6 @@ aside ul {
   list-style-type: none;
 }
 aside ul li {
-  
   padding: 2px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -398,7 +388,6 @@ aside ul li h3 {
   border-radius: 3px 3px 0 0;
   margin-bottom: 0;
 }
-
 aside ul li ul li {
   margin-bottom: 0;
   margin-top: 4px;
@@ -418,9 +407,10 @@ aside ul li ul li a:hover {
 aside ul li ul .cat-item {
   float: left;
 }
-aside ul li ul .cat-item:last-child {
-}
+aside ul li ul .cat-item:last-child {}
+
 /* Comment page */
+
 .comment {
   width: 586px;
   float: left;
@@ -457,7 +447,9 @@ aside ul li ul .cat-item:last-child {
   padding: 5px 10px;
   float: left;
 }
+
 /* Comment depth (max 5) */
+
 .depth-2, .depth-4 {
   background: #eee;
 }
@@ -491,8 +483,7 @@ aside ul li ul .cat-item:last-child {
   text-align: center;
   color: #fff;
   background: #667699;
-  width: 100%
-		float: left;
+  width: 100% float: left;
   padding: 0;
   -webkit-border-radius: 3px 3px 0 0;
   -moz-border-radius: 3px 3px 0 0;
@@ -548,32 +539,16 @@ footer {
   width: 100%;
   float: left;
 }
-.size-full,
-.alignnone,
-.alignleft,
-.alignright {
+.size-full, .alignnone, .alignleft, .alignright {
   /** Max size image **/
-
   max-width: 896px;
   height: auto;
 }
 .home .type-post, .archive .type-post, .page .type-page {
   width: 620px;
 }
-.home .type-post .size-full,
-.archive .type-post .size-full,
-.page .type-page .size-full,
-.home .type-post .alignnone,
-.archive .type-post .alignnone,
-.page .type-page .alignnone,
-.home .type-post .alignleft,
-.archive .type-post .alignleft,
-.page .type-page .alignleft,
-.home .type-post .alignright,
-.archive .type-post .alignright,
-.page .type-page .alignright {
+.home .type-post .size-full, .archive .type-post .size-full, .page .type-page .size-full, .home .type-post .alignnone, .archive .type-post .alignnone, .page .type-page .alignnone, .home .type-post .alignleft, .archive .type-post .alignleft, .page .type-page .alignleft, .home .type-post .alignright, .archive .type-post .alignright, .page .type-page .alignright {
   /** Max size **/
-
   max-width: 620px;
   height: auto;
 }
@@ -592,21 +567,13 @@ footer {
   .home .type-post {
     max-width: 528px;
   }
-  .home .type-post .size-full,
-  .home .type-post .alignnone,
-  .home .type-post .alignleft,
-  .home .type-post .alignright {
+  .home .type-post .size-full, .home .type-post .alignnone, .home .type-post .alignleft, .home .type-post .alignright {
     /** Max size **/
-  
     max-width: 528px;
     height: auto;
   }
-  .size-full,
-  .alignnone,
-  .alignleft,
-  .alignright {
+  .size-full, .alignnone, .alignleft, .alignright {
     /** Max size **/
-  
     max-width: 528px;
     height: auto;
   }
@@ -659,13 +626,13 @@ footer {
     width: 252px;
     padding: 0 34px 60px;
   }
-  body > nav {
+  body>nav {
     display: none;
   }
-  body > header {
+  body>header {
     height: 212px;
   }
-  body > header > .fb-like {
+  body>header>.fb-like {
     display: none;
   }
   #searchform div {
@@ -680,23 +647,15 @@ footer {
     width: 252px;
   }
   .home .type-post, .archive .type-post, .page .type-page {
-  width: auto;
-}
-  .home .type-post .size-full,
-  .home .type-post .alignnone,
-  .home .type-post .alignleft,
-  .home .type-post .alignright {
+    width: auto;
+  }
+  .home .type-post .size-full, .home .type-post .alignnone, .home .type-post .alignleft, .home .type-post .alignright {
     /** Max size **/
-  
     max-width: 252px;
     height: auto;
   }
-  .size-full,
-  .alignnone,
-  .alignleft,
-  .alignright {
+  .size-full, .alignnone, .alignleft, .alignright {
     /** Max size **/
-  
     max-width: 252px;
     height: auto;
   }
@@ -782,7 +741,6 @@ footer {
     width: 176px;
     float: right;
   }
-  
   #searchform div input[type=text] {
     width: 88px;
   }
@@ -790,30 +748,22 @@ footer {
     width: 436px;
     padding: 0 22px 48px;
   }
-  body > header {
+  body>header {
     height: 160px;
   }
-  body > nav {
+  body>nav {
     display: block;
   }
   .home .type-post {
     width: 436px;
   }
-  .home .type-post .size-full,
-  .home .type-post .alignnone,
-  .home .type-post .alignleft,
-  .home .type-post .alignright {
+  .home .type-post .size-full, .home .type-post .alignnone, .home .type-post .alignleft, .home .type-post .alignright {
     /** Max size **/
-  
     max-width: 436px;
     height: auto;
   }
-  .size-full,
-  .alignnone,
-  .alignleft,
-  .alignright {
+  .size-full, .alignnone, .alignleft, .alignright {
     /** Max size **/
-  
     max-width: 436px;
     height: auto;
   }
